@@ -1,0 +1,82 @@
+html,
+body,
+* {
+  box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+button {
+  width:80%;
+  color: white;
+  margin: 0 0.5em;
+  padding: 1em;
+  outline: none;
+  border-radius: 10px;
+  border-color: rgb(43, 40, 40);
+  border-width: 3px;
+}
+
+#decrementButton{
+  background-color: rgb(236, 30, 30);
+}
+
+#resetButton{
+  background-color: rgb(165, 154, 154);
+}
+
+#incrementButton{
+  background-color: rgb(10, 177, 10);
+}
+
+button.hover{
+  background-color: darken(magenta, 5%);
+}
+
+button.active{
+  background-color: darken(magenta, 10%);
+}
+
+.Counters {
+  display: flex;
+}
+
+
+.Counter {
+  border: 3px;
+  border-color: black; 
+  border-style: solid;  
+  font-weight: 700;
+  margin: 2em auto;
+  padding: 2em;
+  width: 400px;
+  background-color: cyan;
+}
+
+.countPanel{
+  border-color: black; 
+  border-style: solid; 
+  background-color: rgb(242, 241, 247);
+  margin: 0em 15% 30px;
+}
+
+.count {
+  font-size: 1em;
+  text-align: center;
+}
+
+.evenOdd{
+  font-size: 1em;
+  text-align: center;
+}
+
+.evenOddPanel{
+  border-color: black; 
+  border-style: solid; 
+  background-color: rgb(242, 241, 247);
+  margin: 0em 15% 30px;
+}
+
+.controlsPanel {
+  display: flex;
+  justify-content: center;
+}

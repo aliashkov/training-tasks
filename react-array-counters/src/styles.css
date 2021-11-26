@@ -1,0 +1,79 @@
+html,
+body,
+* {
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+button {
+    color: black;
+    margin: 0 0.5em;
+    padding: 1em;
+    outline: none;
+    border-radius: 10px;
+    border-color: rgb(43, 40, 40);
+    border-width: 3px;
+}
+
+.ArrayCounters {
+    border: 3px;
+    border-color: black;
+    border-style: solid;
+    font-weight: 700;
+    margin: 2em auto;
+    padding: 2em;
+    width: 400px;
+    background-color: cyan;
+}
+
+.countPanel {
+    border-color: black;
+    border-style: solid;
+    background-color: rgb(242, 241, 247);
+    margin: 0em 15% 30px;
+    text-align: center;
+}
+
+.counterPanel button {
+    width: 15%;
+}
+
+.counterPanel button:nth-child(1) {
+    background-color: rgb(10, 177, 10);
+}
+
+.counterPanel button:nth-child(2) {
+    background-color: rgb(236, 30, 30);
+}
+
+.counterPanel button:nth-child(3) {
+    background-color: rgb(165, 154, 154);
+}
+
+.counterPanel button:nth-child(4) {
+    background-color: rgb(124, 122, 122);
+    ;
+}
+
+.counterPanel {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttonsPanel {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.buttonsPanel button {
+    width: 45%;
+}
+
+#addCounterButton {
+    background-color: rgb(10, 177, 10);
+}
+
+#removeCountersButton {
+    background-color: rgb(236, 30, 30);
+}
